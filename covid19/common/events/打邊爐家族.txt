@@ -1,0 +1,26 @@
+add_namespace = my_namespace
+
+country_event = {
+	id = my_namespace.2
+	title = 打邊爐家族
+	desc = 2020年1月26日，一個家族在一間冇無牌食肆「Lento Party Room」舉行「打邊爐」聚會活動而集體感染武漢肺炎。19個出席打邊爐活動的家族成員中，共有11人確診，為此次疫情中，香港受感染人數最多的家族確診群組。此外，另有2名沒有參與此次聚會的患者，懷疑因與該家族的患者在同一工作場所共事而受到感染，令與該家族有關的確診個案累計增至13宗。
+	picture = GMX_news_event_打邊爐家族
+	trigger = { always = yes }
+
+	option = {
+		name = my_namespace.1.a
+
+		ai_chance = { base = 75 }
+	}
+}
+
+on_actions = {
+    on_yearly_pulse = {
+        effect = {
+            if = {
+                limit = { date = 2020.2.9 }
+                country_event = { id = my_namespace.2}
+            }
+        }
+    }
+}
