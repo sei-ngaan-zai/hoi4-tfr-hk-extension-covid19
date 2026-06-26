@@ -1,0 +1,9 @@
+# ================================================================
+# FILE: common/decisions/categories/TAG_categories.txt
+# ================================================================
+
+TAG_my_category = {
+	visible = {
+		has_completed_focus = focus_2
+	}
+}

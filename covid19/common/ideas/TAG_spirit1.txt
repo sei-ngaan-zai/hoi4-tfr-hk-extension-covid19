@@ -1,0 +1,27 @@
+
+# ============================================================
+# FILE: common/ideas/TAG_spirit1.txt
+# ============================================================
+
+ideas = {
+	country = {
+		TAG_spirit1 = {
+			picture = GFX_疫苗陰謀論
+			allowed_civil_war = { always = yes }
+			cost = 0
+			removal_cost = -1
+			allowed = {
+				original_tag = TAG
+			}
+			available = {
+				has_completed_focus = focus_8
+			}
+			on_add = {
+				add_stability = -0.10
+			}
+			ai_will_do = { factor = 1 }
+		}
+	}
+}
+
+# ============================================================

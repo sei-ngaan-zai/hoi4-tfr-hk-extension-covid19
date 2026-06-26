@@ -1,0 +1,371 @@
+{
+  "tree_name": "TAG_focus_tree",
+  "focuses": [
+    {
+      "id": 1,
+      "name": "focus_1",
+      "icon": "\u2694",
+      "gfx": "GFX_\u75ab\u75c7\u6642\u4ee3",
+      "x": 3,
+      "y": 0,
+      "cost": 0,
+      "desc": "\u672c\u6e2f\u5df2\u51fa\u73fe\u7b2c\u4e00\u5b97\u6b66\u6f22\u80ba\u708e\u500b\u6848\uff0c\u6a19\u8a8c\u75ab\u75c7\u6642\u4ee3\u7684\u4f86\u81e8",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "-0.30"
+          }
+        }
+      ],
+      "prereqs": [],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "date > 2020.1.23",
+      "bypass_cond": "date > 2020.1.23",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 2,
+      "name": "focus_2",
+      "icon": "\u2694",
+      "gfx": "GFX_\u65b9\u8259\u91ab\u9662\u771f\u795e\u5947",
+      "x": 0,
+      "y": 1,
+      "cost": 4,
+      "desc": "\u6b66\u6f22\u7684\u706b\u795e\u5c71\u53ca\u96f7\u795e\u5c71\u91ab\u9662\u5df2\u7d93\u8b49\u660e\u4e86\u65b9\u8259\u91ab\u9662\u53ef\u4ee5\u6709\u6548\u6536\u5bb9\u4e26\u9694\u96e2\u6b66\u80ba\u60a3\u8005\uff0c\u73fe\u6642\u516c\u7acb\u91ab\u9662\u5e8a\u4f4d\u5df2\u7d93\u7206\u6eff\uff0c\u6211\u5011\u61c9\u8a72\u7dca\u8ddf\u9ee8\u570b\u7684\u6b65\u4f10\u8d70\uff0c\u5c07\u65b9\u8259\u91ab\u9662\u5f15\u9032\u9999\u6e2f",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "0.03"
+          }
+        }
+      ],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 3,
+      "name": "focus_3",
+      "icon": "\u2694",
+      "gfx": "GFX_\u5009\u9f20\u662f\u9999\u6e2f\u7684\u9ebb\u96c0",
+      "x": 1,
+      "y": 2,
+      "cost": 4,
+      "desc": "\u6bdb\u4e3b\u5e2d\u5728\u5927\u8e8d\u9032\u6642\u6240\u63d0\u51fa\u7684\u7b2c\u4e00\u5834\u653f\u6cbb\u904b\u52d5\u4fbf\u662f\u300c\u9664\u56db\u5bb3\u300d\uff0c\u53ef\u898b\u5bb3\u87f2\u4e00\u5411\u662f\u6211\u570b\u7684\u4e00\u5927\u554f\u984c\u3002\u8881\u570b\u52c7\u91ab\u751f\u5df2\u7d93\u8b49\u660e\u4e86\u5009\u9f20\u80fd\u5920\u628a\u6b66\u80ba\u50b3\u67d3\u7d66\u4eba\uff0c\u53ef\u898b\u5176\u5bb3\u8655\u6bd4\u8d77\u9ebb\u96c0\u6709\u904e\u4e4b\u800c\u7121\u4e0d\u53ca\uff0c\u4f5c\u70ba\u7956\u570b\u4e00\u9ede\u90fd\u4e0d\u80fd\u5c11\u3001\u4e0d\u53ef\u5206\u5272\u7684\u4e00\u90e8\u5206\uff0c\u6211\u5011\u61c9\u6548\u4eff\u6bdb\u4e3b\u5e2d\u822c\u628a\u9999\u6e2f\u7684\u5009\u9f20\u901a\u901a\u6d88\u6ec5",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "-0.05"
+          }
+        }
+      ],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 4,
+      "name": "focus_4",
+      "icon": "\u2694",
+      "gfx": "GFX_\u8001\u5927\u54e5\u8b93\u4f60\u5b89\u5fc3\u51fa\u884c",
+      "x": 2,
+      "y": 1,
+      "cost": 4,
+      "desc": "\u5e02\u6c11\u9700\u8981\u7528\u5b89\u5fc3\u51fa\u884c\u6383\u63cf\u4e8c\u7dad\u78bc\u624d\u53ef\u4ee5\u9032\u5165\u516c\u5171\u5834\u6240\uff0c\u4e0d\u55ae\u53ef\u4ee5\u6709\u6548\u8ffd\u8e64\u611f\u67d3\u6e90\u982d\u548c\u5bc6\u5207\u63a5\u89f8\u8005\uff0c\u9084\u53ef\u4ee5\u7528\u4f5c\u76e3\u8996\u7570\u8b70\u4eba\u58eb\u7684\u4e00\u8209\u4e00\u52d5",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "-0.03"
+          }
+        }
+      ],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "date > 2020.10.18",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 5,
+      "name": "focus_5",
+      "icon": "\u2694",
+      "gfx": "GFX_\u62bc\u5f8c\u7b2c\u4e03\u5c46\u7acb\u6cd5\u6703\u9078\u8209",
+      "x": 3,
+      "y": 2,
+      "cost": 4,
+      "desc": "\u6211\u5011\u4e0d\u80fd\u5192\u96aa\u8b93\u9019\u9ebc\u591a\u300c\u66f1\u7534\u300d\u4e58\u6a5f\u9032\u5165\u7acb\u6cd5\u6703\uff0c\u6b66\u6f22\u80ba\u708e\u75ab\u60c5\u6b63\u597d\u53ef\u4ee5\u6210\u70ba\u63a8\u9072\u7acb\u6cd5\u6703\u9078\u8209\u7684\u7c4d\u53e3\uff0c\u8b93\u6211\u5011\u6709\u6642\u9593\u53bb\u8a08\u5283\u6e05\u7b97\u7260\u5011",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "-0.05"
+          }
+        },
+        {
+          "type": "add_political_power",
+          "fields": {
+            "amount": "-50"
+          }
+        }
+      ],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "date < 2020.9.6",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 6,
+      "name": "focus_6",
+      "icon": "\u2694",
+      "gfx": "GFX_\u5168\u9762\u5c01\u95dc",
+      "x": 4,
+      "y": 1,
+      "cost": 4,
+      "desc": "\u5f37\u5927\u7684\u6c11\u610f\u58d3\u529b\u8b93\u6211\u5011\u8feb\u65bc\u7121\u5948\u4e0b\u9032\u884c\u5c01\u95dc\uff0c\u5c24\u5176\u662f\u4f86\u81ea\u6975\u7aef\u7d44\u7e54\u300c\u4e5d\u5341\u4e8c\u7c64\u300d\u7684\u70b8\u5f48\u6050\u6016\u8972\u64ca\u53ca\u91ab\u7ba1\u5c40\u54e1\u5de5\u9663\u7dab\u7684\u5927\u898f\u6a21\u7f77\u5de5\u3002\u7b49\u7740\u77a7\u5427\uff0c\u4f60\u5011\u65e9\u665a\u8981\u4ed8\u51fa\u4ee3\u50f9",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "-0.03"
+          }
+        }
+      ],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 7,
+      "name": "focus_7",
+      "icon": "\u2694",
+      "gfx": "GFX_\u5168\u6e2f\u5927\u570d\u5c01",
+      "x": 5,
+      "y": 2,
+      "cost": 4,
+      "desc": "\u75ab\u60c5\u7684\u5371\u96aa\u6027\u9060\u9ad8\u65bc\u9810\u671f\uff0c\u4e8b\u5230\u5982\u4eca\u53ea\u80fd\u9010\u5340\u570d\u5c01\u5f37\u6aa2\u627e\u51fa\u96b1\u85cf\u60a3\u8005\u4e86",
+      "effects": [
+        {
+          "type": "add_stability",
+          "fields": {
+            "amount": "-0.07"
+          }
+        }
+      ],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 8,
+      "name": "focus_8",
+      "icon": "\u2694",
+      "gfx": "GFX_\u6b66\u80ba\u75ab\u82d7\u63a5\u7a2e\u8a08\u5283",
+      "x": 6,
+      "y": 1,
+      "cost": 4,
+      "desc": "\u75ab\u60c5\u5728\u4e00\u5e74\u5f8c\u4ecd\u7136\u8086\u8650\uff0c\u751a\u81f3\u8b8a\u5f97\u6108\u4f86\u6108\u56b4\u91cd\uff0c\u5e78\u597d\u5fa9\u5fc5\u6cf0\u53ca\u4f86\u81ea\u7956\u570b\u7684\u79d1\u8208\u75ab\u82d7\u5df2\u7d93\u53ef\u4ee5\u5927\u898f\u6a21\u751f\u7522\u3002\u96d6\u7136\u79d1\u8208\u75ab\u82d7\u4ecd\u7136\u672a\u901a\u904e\u4efb\u4f55\u540c\u884c\u8a55\u5be9\uff0c\u4f46\u662f\u6211\u5011\u4ecd\u7136\u9700\u8981\u5118\u5feb\u8a02\u8cfc\u53ca\u63a8\u884c\u514d\u8cbb\u63a5\u7a2e\uff0c\u4ee5\u7d50\u675f\u9019\u5834\u4e16\u7d00\u75ab\u75c7",
+      "effects": [],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "date > 2021.1.28",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    },
+    {
+      "id": 9,
+      "name": "focus_9",
+      "icon": "\u2694",
+      "gfx": "GFX_\u569f\u8fea\u58eb\u5c3c\u505a\u8db3\u6e96\u5099",
+      "x": 2,
+      "y": 3,
+      "cost": 4,
+      "desc": "\u63d0\u8d77\u7af9\u7bd9\u7063\u7e3d\u6703\u806f\u60f3\u5230\u8fea\u58eb\u5c3c\uff0c\u56e0\u6b64\u6211\u5011\u5c07\u6703\u5728\u7af9\u7bd9\u7063\u8208\u5efa\u4e00\u500b\u5927\u578b\u9694\u96e2\u71df\uff0c\u4e26\u63d0\u4f9b\u514d\u8cbb\u4f4f\u5bbf\u53ca\u7f8e\u5473\u4f73\u991a\uff0c\u8b93\u5e02\u6c11\u4e0d\u7528\u7f6e\u8eab\u65bc\u8fea\u58eb\u5c3c\u6a02\u5712\u4e5f\u80fd\u4eab\u53d7\u8cd3\u81f3\u5982\u6b78\u7684\u611f\u89ba",
+      "effects": [],
+      "prereqs": [
+        [
+          1
+        ]
+      ],
+      "mutex": [],
+      "cancel_if_invalid": true,
+      "continue_if_invalid": false,
+      "available_if_capitulated": false,
+      "ai_will_do": 1,
+      "ai_will_do_raw": "base = 1",
+      "relative_position_id": null,
+      "search_filters": "FOCUS_FILTER_POLITICAL",
+      "available_cond": "",
+      "bypass_cond": "",
+      "cancel_cond": "",
+      "will_lead_to_war_with": "",
+      "complete_tooltip": "",
+      "select_effect": "",
+      "bypass_effect": "",
+      "allow_branch": "",
+      "text": "",
+      "offsets": [],
+      "tree_idx": 0
+    }
+  ]
+}
