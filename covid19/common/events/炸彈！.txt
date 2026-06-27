@@ -1,0 +1,29 @@
+add_namespace = my_namespace
+
+country_event = {
+	id = my_namespace.5
+	title = 炸彈！
+	desc = 2020年1月27日凌晨，明愛醫院急症室男廁發生土製炸彈爆炸，炸彈內有500克的炸藥粉末。翌日，深圳灣口岸有保安員在垃圾桶內發現一個類似爆炸裝置，相信為一個遙控炸彈。2020年2月2日，港鐵羅湖站發現土製炸彈，其中一個炸彈發生爆炸。
+
+Telegram頻道「九十二籤」已承認與該案有關，聲稱對政府未有因武漢肺炎而全面對大陸封關表示不滿，並呼籲醫護人員展開罷工行動。
+
+	picture = GMX_news_event_炸彈！
+	trigger = { always = yes }
+
+	option = {
+		name = my_namespace.5.a
+        add_stability = -0.10
+		ai_chance = { base = 75 }
+	}
+}
+
+on_actions = {
+    on_yearly_pulse = {
+        effect = {
+            if = {
+                limit = { date = 2020.2.2 }
+                country_event = { id = my_namespace.5}
+            }
+        }
+    }
+}
