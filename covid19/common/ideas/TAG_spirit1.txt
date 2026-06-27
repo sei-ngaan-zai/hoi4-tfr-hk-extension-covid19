@@ -6,19 +6,20 @@
 ideas = {
 	country = {
 		TAG_spirit1 = {
-			picture = GFX_疫苗陰謀論
+			icon = GFX_疫苗陰謀論
 			allowed_civil_war = { always = yes }
 			cost = 0
 			removal_cost = -1
 			allowed = {
-				original_tag = TAG
+				original_tag = HKN
 			}
 			available = {
 				has_completed_focus = focus_8
 			}
-			on_add = {
-				add_stability = -0.10
-			}
+			modifier = {
+                stability_factor = -0.10
+            }
+
 			ai_will_do = { factor = 1 }
 		}
 	}
