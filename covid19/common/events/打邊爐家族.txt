@@ -8,7 +8,7 @@ country_event = {
 	trigger = { always = yes }
 
 	option = {
-		name = my_namespace.1.a
+		name = my_namespace.2.a
 
 		ai_chance = { base = 75 }
 	}
