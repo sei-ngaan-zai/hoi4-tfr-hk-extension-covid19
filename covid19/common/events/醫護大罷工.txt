@@ -2,10 +2,8 @@ add_namespace = my_namespace
 
 country_event = {
 	id = my_namespace.6
-	title = "醫護大罷工"
-	desc = "醫管局員工陣線的特別會員大會以3,123票贊成、10票反對、23票反對和8票廢票通過於即日起罷工，訴求「禁止任何旅客經由中國大陸入境香港」、「落實確切方案確保口罩供應充足」、「提供足夠隔離病房暫停非緊急服務」、「提供足夠配套予照顧隔離病人的醫護」及「公開承諾絕不秋後算賬」，目前已有9,000名醫護實名簽署參與罷工。
-
-副主席羅卓堯向公眾致歉，承認罷工會影響公立醫院服務，但認為責任在於政府，醫護並非「趁火打劫」而是關注公共衛生問題。"
+	title = my_namespace.6.t
+	desc = my_namespace.6.d
 	picture = GMX_news_event_醫護大罷工
 	trigger = { always = yes }
 
