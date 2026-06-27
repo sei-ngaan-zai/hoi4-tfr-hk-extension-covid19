@@ -1,0 +1,130 @@
+focus_tree = {
+    id = TAG_focus_tree
+    country = { TAG = yes }
+
+    focus = {
+        id = focus_1
+        icon = GFX_疫症時代
+        x = 3
+        y = 0
+        cost = 0
+
+        available = { date > 2020.1.23 }
+        bypass = { date > 2020.1.23 }
+
+        completion_reward = {
+            add_stability = -0.30
+        }
+    }
+
+    focus = {
+        id = focus_2
+        icon = GFX_方艙醫院真神奇
+        x = 1
+        y = 1
+        cost = 4
+
+        prerequisite = { focus_1 }
+
+        completion_reward = {
+            add_stability = 0.03
+        }
+    }
+
+    focus = {
+        id = focus_3
+        icon = GFX_倉鼠是香港的麻雀
+        x = 3
+        y = 1
+        cost = 4
+
+        prerequisite = { focus_1 }
+
+        completion_reward = {
+            add_stability = -0.05
+        }
+    }
+
+    focus = {
+        id = focus_4
+        icon = GFX_老大哥讓你安心出行
+        x = 5
+        y = 1
+        cost = 4
+
+        prerequisite = { focus_1 }
+
+        available = { date > 2020.10.18 }
+
+        completion_reward = {
+            add_stability = -0.03
+        }
+    }
+
+    focus = {
+        id = focus_5
+        icon = GFX_押後第七屆立法會選舉
+        x = 3
+        y = 2
+        cost = 4
+
+        prerequisite = { focus_2, focus_3, focus_4 }
+
+        available = { date < 2020.9.6 }
+
+        completion_reward = {
+            add_stability = -0.05
+            add_political_power = -50
+        }
+    }
+
+    focus = {
+        id = focus_6
+        icon = GFX_全面封關
+        x = 1
+        y = 2
+        cost = 4
+
+        prerequisite = { focus_2, focus_3, focus_4 }
+
+        completion_reward = {
+            add_stability = -0.03
+        }
+    }
+
+    focus = {
+        id = focus_7
+        icon = GFX_全港大圍封
+        x = 5
+        y = 2
+        cost = 4
+
+        prerequisite = { focus_2, focus_3, focus_4 }
+
+        completion_reward = {
+            add_stability = -0.07
+        }
+    }
+
+    focus = {
+        id = focus_8
+        icon = GFX_武肺疫苗接種計劃
+        x = 1
+        y = 3
+        cost = 4
+
+        prerequisite = { focus_5, focus_6, focus_7 }
+
+        available = { date > 2021.1.28 }
+    }
+
+    focus = {
+        id = focus_9
+        icon = GFX_籠迪士尼做足準備
+        x = 5
+        y = 3
+        cost = 4
+
+        prerequisite = { focus_5, focus_6, focus_7 }
+    }
+}
