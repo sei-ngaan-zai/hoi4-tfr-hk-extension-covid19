@@ -116,6 +116,11 @@ focus_tree = {
         prerequisite = { focus_5, focus_6, focus_7 }
 
         available = { date > 2021.1.28 }
+
+        completion_reward = {
+            add_ideas = TAG_spirit1
+        }
+
     }
 
     focus = {
