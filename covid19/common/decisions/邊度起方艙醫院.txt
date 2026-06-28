@@ -1,146 +1,97 @@
-# ================================================================
-# FILE: common/decisions/TAG_decisions.txt
-# ================================================================
+TAG_my_decision_1 = {
+    category = TAG_my_category
 
-TAG_my_category = {
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
 
-	TAG_my_decision_1 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+    cost = 25
+    fire_only_once = yes
 
-	TAG_my_decision_2 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
 
-	TAG_my_decision_3 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+TAG_my_decision_2 = {
+    category = TAG_my_category
 
-	TAG_my_decision_4 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
 
-	TAG_my_decision_5 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+    cost = 25
+    fire_only_once = yes
 
-	TAG_my_decision_6 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
 
-	TAG_my_decision_7 = {
-		visible = {
-			has_completed_focus = focus_2
-		}
-		available = {
-			has_completed_focus = focus_2
-		}
-		on_map_mode = map_and_decisions_view
-		cost = 25
-		fire_only_once = yes
-		fixed_random_seed = no
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision TAG_my_decision"
-			add_stability = 0.01
-		}
-		ai_will_do = {
-			base = 0
-		}
-	}
+TAG_my_decision_3 = {
+    category = TAG_my_category
+
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
+
+TAG_my_decision_4 = {
+    category = TAG_my_category
+
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
+
+TAG_my_decision_5 = {
+    category = TAG_my_category
+
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
+
+TAG_my_decision_6 = {
+    category = TAG_my_category
+
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
+
+TAG_my_decision_7 = {
+    category = TAG_my_category
+
+    visible = { has_completed_focus = focus_2 }
+    available = { has_completed_focus = focus_2 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
 }
