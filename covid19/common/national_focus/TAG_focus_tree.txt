@@ -68,7 +68,7 @@ focus_tree = {
         y = 2
         cost = 4
 
-        prerequisite = { focus_2, focus_3, focus_4 }
+        prerequisite = { focus_2 focus_3 focus_4 }
 
         available = { date < 2020.9.6 }
 
@@ -85,7 +85,7 @@ focus_tree = {
         y = 2
         cost = 4
 
-        prerequisite = { focus_2, focus_3, focus_4 }
+        prerequisite = { focus_2 focus_3 focus_4 }
 
         completion_reward = {
             add_stability = -0.03
@@ -99,7 +99,7 @@ focus_tree = {
         y = 2
         cost = 4
 
-        prerequisite = { focus_2, focus_3, focus_4 }
+        prerequisite = { focus_2 focus_3 focus_4 }
 
         completion_reward = {
             add_stability = -0.07
@@ -113,14 +113,13 @@ focus_tree = {
         y = 3
         cost = 4
 
-        prerequisite = { focus_5, focus_6, focus_7 }
+        prerequisite = { focus_5 focus_6 focus_7 }
 
         available = { date > 2021.1.28 }
 
         completion_reward = {
             add_ideas = TAG_spirit1
         }
-
     }
 
     focus = {
@@ -130,6 +129,6 @@ focus_tree = {
         y = 3
         cost = 4
 
-        prerequisite = { focus_5, focus_6, focus_7 }
+        prerequisite = { focus_5 focus_6 focus_7 }
     }
 }
