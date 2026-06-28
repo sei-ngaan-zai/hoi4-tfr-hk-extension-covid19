@@ -1,0 +1,51 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_疫症時代"
+        texturefile = "gfx/interface/goals/GFX_疫症時代.dds"
+    }
+
+    spriteType = {
+        name = "GFX_方艙醫院真神奇"
+        texturefile = "gfx/interface/goals/GFX_方艙醫院真神奇.dds"
+    }
+
+    spriteType = {
+        name = "GFX_倉鼠是香港的麻雀"
+        texturefile = "gfx/interface/goals/GFX_倉鼠是香港的麻雀.dds"
+    }
+
+    spriteType = {
+        name = "GFX_老大哥讓你安心出行"
+        texturefile = "gfx/interface/goals/GFX_老大哥讓你安心出行.dds"
+    }
+
+    spriteType = {
+        name = "GFX_押後第七屆立法會選舉"
+        texturefile = "gfx/interface/goals/GFX_押後第七屆立法會選舉.dds"
+    }
+
+    spriteType = {
+        name = "GFX_全面封關"
+        texturefile = "gfx/interface/goals/GFX_全面封關.dds"
+    }
+
+    spriteType = {
+        name = "GFX_全港大圍封"
+        texturefile = "gfx/interface/goals/GFX_全港大圍封.dds"
+    }
+
+    spriteType = {
+        name = "GFX_武肺疫苗接種計劃"
+        texturefile = "gfx/interface/goals/GFX_武肺疫苗接種計劃.dds"
+    }
+
+    spriteType = {
+        name = "GFX_嚟迪士尼做足準備"
+        texturefile = "gfx/interface/goals/GFX_嚟迪士尼做足準備.dds"
+    }
+
+    spriteType = {
+        name = "GFX_疫苗陰謀論"
+        texturefile = "gfx/interface/goals/GFX_疫苗陰謀論.dds"
+    }
+}
