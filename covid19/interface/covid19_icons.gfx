@@ -49,7 +49,7 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/GFX_疫苗陰謀論.dds"
     }
    spriteType = {
-        name = "GFX_城中富婆“
+        name = "GFX_城中富婆"
         texturefile = "gfx/interface/goals/GFX_城中富婆.dds"
     }
    spriteType = {
