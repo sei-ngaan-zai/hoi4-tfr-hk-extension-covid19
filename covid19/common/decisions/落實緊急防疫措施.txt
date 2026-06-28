@@ -1,1 +1,27 @@
+TAG_my_decision_2_1 = {
+    category = TAG_my_category_2
 
+    visible = { has_completed_focus = focus_1 }
+    available = { has_completed_focus = focus_1 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
+
+TAG_my_decision_2_2 = {
+    category = TAG_my_category_2
+
+    visible = { has_completed_focus = focus_1 }
+    available = { has_completed_focus = focus_1 }
+
+    cost = 25
+    fire_only_once = yes
+
+    complete_effect = {
+        add_stability = 0.01
+    }
+}
