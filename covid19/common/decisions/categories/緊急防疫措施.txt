@@ -1,4 +1,4 @@
-TAG_my_category = {
+TAG_my_category_2 = {
 	visible = {
 		has_completed_focus = focus_1
 	}
