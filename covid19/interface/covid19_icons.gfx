@@ -48,4 +48,32 @@ spriteTypes = {
         name = "GFX_疫苗陰謀論"
         texturefile = "gfx/interface/goals/GFX_疫苗陰謀論.dds"
     }
+   spriteType = {
+        name = "GFX_城中富婆“
+        texturefile = "gfx/interface/goals/GFX_城中富婆.dds"
+    }
+   spriteType = {
+        name = "GFX_打邊爐家族"
+        texturefile = "gfx/interface/goals/GFX_打邊爐家族.dds"
+    }
+   spriteType = {
+        name = "GFX_炸彈！"
+        texturefile = "gfx/interface/goals/GFX_炸彈！.dds"
+    }
+   spriteType = {
+        name = "GFX_醫護大罷工"
+        texturefile = "gfx/interface/goals/GFX_醫護大罷工.dds"
+    }
+   spriteType = {
+        name = "GFX_鑽石公主的移動毒舶"
+        texturefile = "gfx/interface/goals/GFX_鑽石公主的移動毒舶.dds"
+    }
+   spriteType = {
+        name = "GFX_首宗武漢肺炎死亡個案“
+        texturefile = "gfx/interface/goals/GFX_首宗武漢肺炎死亡個案.dds"
+    }
+   spriteType = {
+        name = "GFX_香港首宗病例“
+        texturefile = "gfx/interface/goals/GFX_香港首宗病例.dds"
+    }
 }
