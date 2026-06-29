@@ -140,5 +140,8 @@ focus_tree = {
         cost = 4
 
         prerequisite = { focus_5 focus_6 focus_7 }
+
+        completion_reward = {
+            add_stability = -0.07
     }
 }
