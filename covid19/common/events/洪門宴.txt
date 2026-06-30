@@ -1,0 +1,27 @@
+add_namespace = my_namespace
+
+country_event = {
+        id = my_namespace.8
+        title = my_namespace.8.t
+        desc = my_namespace.8.d
+        picture = GMX_news_event_洪門宴
+        trigger = { always = yes }
+
+        option = {
+                name = my_namespace.8.a
+        triggered_event = { id = my_namespace.9 }
+
+                ai_chance = { base = 75 }
+        }
+}
+
+on_actions = {
+    on_yearly_pulse = {
+        effect = {
+            if = {
+                limit = { date > 2022.1.3 }
+                country_event = { id = my_namespace.8}
+            }
+        }
+    }
+}
