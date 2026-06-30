@@ -1,0 +1,15 @@
+add_namespace = my_namespace
+
+country_event = {
+        id = my_namespace.8b
+        title = my_namespace.8b.t
+        desc = my_namespace.8b.d
+        picture = GMX_news_event_洪門宴b
+        trigger = { always = yes }
+
+        option = {
+                name = my_namespace.8b.a
+                triggered_event = { id = my_namespace.8c }
+                ai_chance = { base = 75 }
+        }
+}
