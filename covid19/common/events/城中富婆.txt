@@ -9,8 +9,8 @@ country_event = {
 
 	option = {
 		name = my_namespace.7.a
-  add_stability = -0.03
 		ai_chance = { base = 75 }
+        add_stability = -0.07
 	}
 }
 
