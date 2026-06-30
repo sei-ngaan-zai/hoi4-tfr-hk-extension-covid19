@@ -80,8 +80,4 @@ spriteTypes = {
         name = "GFX_洪門宴“
         texturefile = "gfx/interface/goals/GFX_洪門宴.dds"
     }
-   spriteType = {
-        name = "GFX_洪門宴b“
-        texturefile = "gfx/interface/goals/GFX_洪門宴b.dds"
-    }
 }
