@@ -76,4 +76,16 @@ spriteTypes = {
         name = "GFX_香港首宗病例“
         texturefile = "gfx/interface/goals/GFX_香港首宗病例.dds"
     }
+   spriteType = {
+        name = "GFX_洪門宴“
+        texturefile = "gfx/interface/goals/GFX_洪門宴.dds"
+    }
+   spriteType = {
+        name = "GFX_洪門宴b“
+        texturefile = "gfx/interface/goals/GFX_洪門宴b.dds"
+    }
+   spriteType = {
+        name = "GFX_洪門宴c“
+        texturefile = "gfx/interface/goals/GFX_洪門宴c.dds"
+    }
 }
